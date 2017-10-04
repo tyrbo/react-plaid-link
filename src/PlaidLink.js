@@ -102,6 +102,7 @@ const PlaidLink = React.createClass({
       selectAccount: this.props.selectAccount,
       token: this.props.token,
       webhook: this.props.webhook,
+      isMobile: true,
     });
 
     this.setState({disabledButton: false});
